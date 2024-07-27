@@ -82,6 +82,10 @@ options:
   --output OUTPUT       Path to save the output image or video
 ```
 
+<div align="center">
+  <img src="./assets/out_image.jpg" width="100%">
+</div>
+
 ## Reference
 
 1. https://github.com/deepinsight/insightface
