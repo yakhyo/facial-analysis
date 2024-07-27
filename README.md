@@ -43,13 +43,13 @@ pip install -r requirements.txt
 
    a) Download weights from the following links:
 
-   | Model           | Weights                                                                                           |
-   | --------------- | ------------------------------------------------------------------------------------------------- |
-   | ArcFace         | [w600k_r50.onnx](https://github.com/yakhyo/face-analysis/releases/download/v0.0.1/w600k_r50.onnx) |
-   | SCRFD           | [det_2.5g.onnx](https://github.com/yakhyo/face-analysis/releases/download/v0.0.1/det_2.5g.onnx)   |
-   | SCRFD           | [det_500m.onnx](https://github.com/yakhyo/face-analysis/releases/download/v0.0.1/det_500m.onnx)   |
-   | SCRFD (default) | [det_10g.onnx](https://github.com/yakhyo/face-analysis/releases/download/v0.0.1/det_10g.onnx)     |
-   | GenderAge       | [genderage.onnx](https://github.com/yakhyo/face-analysis/releases/download/v0.0.1/genderage.onnx) |
+   | Model          | Weights                                                                                           | Size    |
+   | -------------- | ------------------------------------------------------------------------------------------------- | ------- |
+   | ArcFace        | [w600k_r50.onnx](https://github.com/yakhyo/face-analysis/releases/download/v0.0.1/w600k_r50.onnx) | 166 MB  |
+   | SCRFD          | [det_2.5g.onnx](https://github.com/yakhyo/face-analysis/releases/download/v0.0.1/det_2.5g.onnx)   | 3.14 MB |
+   | SCRFD          | [det_500m.onnx](https://github.com/yakhyo/face-analysis/releases/download/v0.0.1/det_500m.onnx)   | 2.41 MB |
+   | SCRFD(default) | [det_10g.onnx](https://github.com/yakhyo/face-analysis/releases/download/v0.0.1/det_10g.onnx)     | 16.1 MB |
+   | GenderAge      | [genderage.onnx](https://github.com/yakhyo/face-analysis/releases/download/v0.0.1/genderage.onnx) | 1.26 MB |
 
    b) Run the command below to download weights to the `weights` directory (Linux):
 
