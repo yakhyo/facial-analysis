@@ -19,7 +19,6 @@ class SCRFD:
         self,
         model_path: str,
         input_size: Tuple[int] = (640, 640),
-        max_num: int = 0,
         conf_thres: float = 0.5,
         iou_thres: float = 0.4
     ) -> None:
@@ -34,7 +33,6 @@ class SCRFD:
         """
 
         self.input_size = input_size
-        self.max_num = max_num
         self.conf_thres = conf_thres
         self.iou_thres = iou_thres
 
@@ -122,7 +120,7 @@ class SCRFD:
                 kpss_list.append(pos_kpss)
         return scores_list, bboxes_list, kpss_list
 
-    def detect(self, image, metric="max"):
+    def detect(self, image, max_num=0, metric="max"):
         width, height = self.input_size
 
         im_ratio = float(image.shape[0]) / image.shape[1]
@@ -159,7 +157,7 @@ class SCRFD:
             kpss = kpss[keep, :, :]
         else:
             kpss = None
-        if 0 < self.max_num < det.shape[0]:
+        if 0 < max_num < det.shape[0]:
             area = (det[:, 2] - det[:, 0]) * (det[:, 3] - det[:, 1])
             image_center = image.shape[0] // 2, image.shape[1] // 2
             offsets = np.vstack(
@@ -174,7 +172,7 @@ class SCRFD:
             else:
                 values = (area - offset_dist_squared * 2.0)  # some extra weight on the centering
             bindex = np.argsort(values)[::-1]
-            bindex = bindex[0:self.max_num]
+            bindex = bindex[0:max_num]
             det = det[bindex, :]
             if kpss is not None:
                 kpss = kpss[bindex, :]
