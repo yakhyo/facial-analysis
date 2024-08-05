@@ -1,6 +1,6 @@
 # Face Analysis (ONNX models)
 
-![Downloads](https://img.shields.io/github/downloads/yakhyo/face-analysis/total) [![GitHub Repository](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/yakhyo/face-analysis)
+![Downloads](https://img.shields.io/github/downloads/yakhyo/face-analysis/total) [![GitHub Repository](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/yakhyo/facial-analysis)
 
 <div>
   <img src="./assets/logo/logo_txt.png">
@@ -24,17 +24,8 @@ This repository contains functionalities for face detection, age and gender clas
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/yakhyo/face-analysis.git
-cd face-analysis
-```
-
-## Installation
-
-1. Clone the repository:
-
-```bash
-git clone https://github.com/yakyo/face-analysis.git
-cd face-analysis
+git clone https://github.com/yakyo/facial-analysis.git
+cd facial-analysis
 ```
 
 2. Install the required dependencies:
@@ -49,11 +40,11 @@ pip install -r requirements.txt
 
    | Model          | Weights                                                                                           | Size    |
    | -------------- | ------------------------------------------------------------------------------------------------- | ------- |
-   | ArcFace        | [w600k_r50.onnx](https://github.com/yakhyo/face-analysis/releases/download/v0.0.1/w600k_r50.onnx) | 166 MB  |
-   | SCRFD          | [det_2.5g.onnx](https://github.com/yakhyo/face-analysis/releases/download/v0.0.1/det_2.5g.onnx)   | 3.14 MB |
-   | SCRFD          | [det_500m.onnx](https://github.com/yakhyo/face-analysis/releases/download/v0.0.1/det_500m.onnx)   | 2.41 MB |
-   | SCRFD(default) | [det_10g.onnx](https://github.com/yakhyo/face-analysis/releases/download/v0.0.1/det_10g.onnx)     | 16.1 MB |
-   | GenderAge      | [genderage.onnx](https://github.com/yakhyo/face-analysis/releases/download/v0.0.1/genderage.onnx) | 1.26 MB |
+   | ArcFace        | [w600k_r50.onnx](https://github.com/yakhyo/facial-analysis/releases/download/v0.0.1/w600k_r50.onnx) | 166 MB  |
+   | SCRFD          | [det_2.5g.onnx](https://github.com/yakhyo/facial-analysis/releases/download/v0.0.1/det_2.5g.onnx)   | 3.14 MB |
+   | SCRFD          | [det_500m.onnx](https://github.com/yakhyo/facial-analysis/releases/download/v0.0.1/det_500m.onnx)   | 2.41 MB |
+   | SCRFD(default) | [det_10g.onnx](https://github.com/yakhyo/facial-analysis/releases/download/v0.0.1/det_10g.onnx)     | 16.1 MB |
+   | GenderAge      | [genderage.onnx](https://github.com/yakhyo/facial-analysis/releases/download/v0.0.1/genderage.onnx) | 1.26 MB |
 
    b) Run the command below to download weights to the `weights` directory (Linux):
 
