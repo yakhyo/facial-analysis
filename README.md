@@ -1,6 +1,11 @@
 # Face Analysis (ONNX models)
 
-![Downloads](https://img.shields.io/github/downloads/yakhyo/face-analysis/total) [![GitHub Repository](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/yakhyo/facial-analysis)
+![Downloads](https://img.shields.io/github/downloads/yakhyo/face-analysis/total?label=Downloads) [![GitHub Repository](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/yakhyo/facial-analysis)
+
+> [!TIP]
+> The models and functionality in this repository are **integrated into [UniFace](https://github.com/yakhyo/uniface)** — an all-in-one face analysis toolkit.<br>
+> [![PyPI Version](https://img.shields.io/pypi/v/uniface.svg)](https://pypi.org/project/uniface/) [![GitHub Stars](https://img.shields.io/github/stars/yakhyo/uniface)](https://github.com/yakhyo/uniface/stargazers) [![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+
 
 <div>
   <img src="./assets/logo/logo_txt.png">
