@@ -1,4 +1,4 @@
-# Face Analysis (ONNX models)
+# Face Analysis
 
 ![Downloads](https://img.shields.io/github/downloads/yakhyo/face-analysis/total?label=Downloads) [![GitHub Repository](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/yakhyo/facial-analysis)
 
