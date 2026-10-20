@@ -1,6 +1,6 @@
 # Face Analysis
 
-![Downloads](https://img.shields.io/github/downloads/yakhyo/face-analysis/total?label=Downloads) [![GitHub Repository](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/yakhyo/facial-analysis)
+![Downloads](https://img.shields.io/github/downloads/yakhyo/facial-analysis/total?label=Downloads) [![GitHub Repository](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/yakhyo/facial-analysis)
 
 > [!TIP]
 > The models and functionality in this repository are **integrated into [UniFace](https://github.com/yakhyo/uniface)** — an all-in-one face analysis toolkit.<br>
@@ -29,7 +29,7 @@ This repository contains functionalities for face detection, age and gender clas
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/yakyo/facial-analysis.git
+git clone https://github.com/yakhyo/facial-analysis.git
 cd facial-analysis
 ```
 
